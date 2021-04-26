@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*作品ページ設定*/
+.top,
+.works-img{
+    margin-bottom: 30px;
+}
+
+.description{
+    margin-bottom: 25px;
+}
+.works-p{
+    padding-bottom: 80px;
+}
+
+.works-list{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    gap: 60px;
+    justify-content: center;
+    margin:30px 0 80px;
+}
+.link{
+    font-size: 12px;
+    padding: 0 0 30px 0; 
+}
+.link a:hover{
+    opacity: 0.6;
+    transition-duration: 0.3s;
+}
+
+.tit{
+    margin: 10px 0 30px;
+    padding: 0;
+    font-size: 18px;
+}
+li,p{
+    line-height: 1.4;
+}
+
+h2{
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    padding: 140px 0 10px;
+}
+h3{
+    font-size: 20px;
+    padding-bottom:10px;
+}
+h4{
+    font-size: 18px;
+}
+.summary{
+    width: 45%;
+    padding: 10px;
+}
+.summary img,
+.aside img{
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+.summary h4,p{
+    padding: 10px;
+    width: 75%;
+    margin: auto;
+}
+.summary p,
+.supplement{
+    padding-bottom: 10px;
+}
+.article{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+}
+.aside{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 30px;
+    padding: 60px 0;
+}
+.aside-content{
+    margin: auto 10px;
+}
+.aside-content h4{
+    margin-left: 70px;
+    padding-bottom: 10px;
+}
+.bn{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 130px;
+}
+.bn img{
+    width: 95%;
+}
+.lead{
+    padding: 10px 20px 20px 30px;
+}
+.lead p{
+    margin: 0;
+    padding: 10px 0;
+}
+
+.w1-ttl{
+    padding: 80px 0 30px;
+}

@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+h1,h2{
+    font-weight: bold!important;
+    text-align: center;
+}
+
+/*タイトル*/
+.top{
+    padding: 300px 50px!important;
+}
+.top h1{
+    font-size:64px;
+}
+.top h2{
+    font-size: 30px;
+	margin:15px 0;
+    
+}
+/*各項目タイトル*/
+#section1,
+#section2,
+#section3,
+#section4{
+    padding: 100px 0 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*作品ページの設定*/
+.main{
+    display: grid;
+    grid-template-columns: 260px 260px 260px;
+    gap:60px;   
+    margin: 50px 0;
+}
+
+
+/*プロフィール*/
+.about{
+    display: flex;
+    justify-content:center;
+    margin: 50px 0;
+    padding-bottom: 30px; 
+}
+.about-text{
+    padding:30px 0 10px;
+}
+.about-img{
+    margin-top: 50px;
+}
+.prof{
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 20px;
+}
+span{
+    margin: 30px 0 10px;
+    font-size: 14px;
+}
+.name{
+    font-size: 30px;
+    margin: 45px 0 0 20px;
+}
+
+/*スキルここから*/
+.skill{
+    text-align: center;
+    padding: 72px 0;
+}
+
+/*問い合わせフォーム*/
+.contact{
+    text-align: center;
+}
+.contact p{
+    line-height: 1.5;
+    padding: 30px 0 0;
+}
+form{
+    margin: 48px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form,
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+textarea{
+    width: 290px;
+}
+form{
+    margin: 48px auto;
+    display: block;
+}
+form p{
+    display: inline-block;
+    margin: 0;
+}
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+textarea{
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+input[type="submit"],
+textarea{
+    padding: 10px;
+}
+textarea {
+    padding: 10px;
+    height: 100px;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+
+/*モバイル版設定600*/
+@media(max-width:600px){   
+/*タイトル*/
+    .top{
+        padding:300px 20px!important;
+}
+    .top h1{
+        font-size: 45px;
+        padding-bottom: 5px;
+    } 
+/*作品ページ*/
+
+/*プロフィール*/
+    .about,
+    .prof,
+    .prof2{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .prof{
+        text-align: center;
+    }
+    .name1{
+        font-size: 18px;
+    }
+    .name2{
+        font-size:35px;
+    }
+    .prof2{
+        width: 90%;
+        font-size: 14px;
+    }
+/*スキル*/
+    .skill img{
+        width: 100%;
+    }
+/*コンタクト*/    
+    .contact p{
+        width: 100%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+}
+
+
+/*560*/
+
+
+
